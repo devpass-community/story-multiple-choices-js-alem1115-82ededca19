@@ -1,5 +1,11 @@
+var obj = {
+    Beverage: "Soda",
+    Fruit: "Apple",
+    Hygiene: "Soap"
+}
+
 function chooseProduct(segment) {
-    // Add your solution here!
+    return obj[segment]
 }
 
 module.exports = chooseProduct;
